@@ -36,6 +36,7 @@ function startgame() {
 
         if (start_Position === treasure_Num) {
             console.log("Treasure found");
+            return move_History;
         }
     }
 
